@@ -1,0 +1,7 @@
+﻿Q1 :- In the solution there is a graph showing error and iterations. Along with that the prediction ASCII values are printed.
+
+Q2 :- In the solution we have created different scenerios for different noises 1%, 3%, 6%, 10%, 20%, 30%, 50%, 70% and 100%. And we find a gradual decrease in accuracy when testing on more and more noisy data.
+
+Q3. Here we just train our model without any noise and tend to find that we get a different character everytime we run.
+
+Q4. Here we first find the number of nodes in a hidden layer which gives us a  model with the best accuracy. Then we train our model with different amounts of noise 10%, 50% and 90% and results show that as we increase the noise and keep training our model, till 50 % noise our accuracy decreases to 4% but after that there is no significant change in the accuracy. And on the contrary we find a minor increase in accuracy at 90% noise which can be because the flipping is nullified by reverse flipping.
